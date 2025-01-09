@@ -1,4 +1,6 @@
 # Momentum On Chrome with Vanilla JS 
 
 ## プロジェクト概要
-Vanila JSでChrome上のモメンタムアプリを作成する
+Vanila JSでChrome上のモメンタムアプリを作成する。
+Javascritpの自学習。
+

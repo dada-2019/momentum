@@ -7,42 +7,46 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="content">
     <h2 id="clock">00:00:00</h2>
     <form id="login-form" class="hidden">   
     <input 
         required 
         maxlength="15" 
         type="text" 
-        placeholder="What is your name?"
+        placeholder="あなたの名前は？"
     />
     <!-- <button>Log In</button> -->
-    <input type="submit" value="Log In"/>
+    <input type="submit" value="ログイン"/>
     </form>
     
     <h1 id="greeting" class="hidden"></h1>
     
     <form id ="todo-form">
-    <input placeholder="Write a to do list" required />
+    <input type="text" placeholder="To do listを書いてみてください。" required />
     </form>
     <ul id="to-list"></ul>
     
     <div id="quote">
-        <span></span>
+        <span></span><br>
         <span></span>
     </div>
     <div id="weather">
-        <span></span>
+        <span></span><br>
         <span></span>
     </div>
+    <div id="footer">Created by Kei<br>(TfLS)</div>
+    </div>
+  
     <!-- <a href="https://nomadcoders.co">Go to courses</a> -->
-    
+       
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>
-    <script src="js/backgrounds.js"></script>
     <script src="js/todo.js"></script>
     <script src="js/apikey.js"></script>
     <script src="js/weather.js"></script>
+    <script src="js/backgrounds.js"></script>
 
 </body>
 </html>

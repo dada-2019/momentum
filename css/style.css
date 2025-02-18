@@ -27,7 +27,7 @@ body {
     box-sizing: border-box;
 }
 #clock {
-    font-size: 4rem; /* 大きなサイズに設定 */
+    font-size: 3rem; /* 大きなサイズに設定 */
     margin: 0;
     margin-bottom: 20px;
 }
@@ -36,7 +36,7 @@ body {
     margin: 0;
 }
 #greeting {
-    font-size: 3rem; /* 時計に比べてバランスをとるために大きく設定 */
+    font-size: 2.5rem; /* 時計に比べてバランスをとるために大きく設定 */
     margin: 20px 0;
 }
 form {
@@ -80,19 +80,19 @@ input[type="submit"] {
     list-style: none;
     padding: 0;
     margin: 20px 0;
-    font-size: 1.5rem; /* インパクトのあるリスト表示 */
+    font-size: 1.3rem; /* インパクトのあるリスト表示 */
     text-align: left;
-    width: 80%;
+    width: 70%;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
     color: #f0f0f0; /* 文字色を統一 */
 }
 li {
-    font-size: 2rem; /* 全体のバランスを考慮した文字サイズ */
-    padding: 2px 0;
+    font-size: 1.2rem; /* 全体のバランスを考慮した文字サイズ */
+    padding: 1px 0;
     text-align: left;
-    padding-left: 32%;
+    padding-left: 3%;
 }
 
 #quote {
